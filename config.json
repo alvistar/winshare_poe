@@ -1,0 +1,14 @@
+{
+    "name": "Winshare POE Display",
+    "version": "0.1",
+    "slug": "winshare_poe",
+    "description": "Displays info on LCD display for Winshare POE Hat",
+    "arch": ["armv7"],
+    "startup": "application",
+    "boot": "auto",
+    "options": {},
+    "devices": ["/dev/i2c-1"],
+    "host_network": true,
+    "image": "alvistar/image-{arch}-winshare-poe",
+    "schema": {}
+  }
